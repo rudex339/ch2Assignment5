@@ -26,6 +26,7 @@ void AMyActor::BeginPlay()
 		totDist += dis;
 		TriggerEventWithProbability(50);
 	}
+	UE_LOG(LogTemp, Log, TEXT("distance : %d, eventcount : %d"), totDist, evCnt);
 	
 }
 
